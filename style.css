@@ -1,0 +1,126 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ 
+}
+
+/***********************************************************************/
+.navbar-brand{
+  text-align: center;
+}
+
+.card {
+    background: transparent;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.50);
+    max-width: 550px;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+
+a{
+  width: 100%;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover{
+  opacity: .9;
+}
+.card>img{
+  border-radius: 100%;
+  width: 175px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+#repository{
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+  margin: 6px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.50);
+   border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+}
+#followers{
+   width: 90px;
+   height: 90px;
+   margin: 6px;
+   display: inline-block;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.50);
+   border-bottom-left-radius: 10px;
+   border-top-right-radius: 10px;
+   font-weight: bold;
+   
+  }
+
+#followinng{
+    width: 90px;
+    height: 90px;
+    margin: 6px;
+    display: inline-block;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.50);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+}
+
+/*************************************************************************/
+
+
+/* Dark Mode */
+body.dark-mode {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+body.dark-mode .navbar-dark {
+  background-color: #222;
+}
+
+body.dark-mode .card {
+  background: transparent;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.50);
+  color: white;
+}
+
+body.dark-mode .card-body {
+  background-color: #333;
+  color: white;
+}
+
+body.dark-mode a {
+  color: #80b3ff;
+}
+
+body.dark-mode #repository, body.dark-mode #followers, body.dark-mode #following {
+  background-color: #444;
+  color: white;
+}
+
+body.dark-mode button {
+  background-color: #0d6efd;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
